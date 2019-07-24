@@ -52,7 +52,7 @@ function calculateHand ($playerOneHand, $playerTwoHand) {
 
 calculateHand ($playerOneHand, $playerTwoHand);
 
-//create function to display the suit and face value of the dealt cards
+//create function to display the suit and face value of the cards dealt to both players
 
 function displayCards ($playerOneHand, $playerTwoHand) {
     $p1Card1 = $playerOneHand[0]['faceValue'] . ' of ' . $playerOneHand[0]['suit'];
@@ -68,6 +68,8 @@ function displayCards ($playerOneHand, $playerTwoHand) {
 }
 
 displayCards ($playerOneHand, $playerTwoHand);
+
+
 
 
 //function calculatePoints (&$calculate) : int {
